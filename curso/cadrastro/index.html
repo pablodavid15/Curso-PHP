@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>php</title>
+</head>
+<body>
+    <div>
+        <form action="http://localhost/black/cadrastro/cadrastro.php" method="post">
+            <label for="nome">Nome: <input type="text" name="nome" size="60" placeholder="Irineu Pinto"></label><br>
+            <label for="idade">Idade: <input type="number" name="idade" size="60" placeholder="10.000"></label><br>
+            <label for="CPF">CPF: <input type="number" name="CPF" id="CPF" size="26" maxlength="14" pattern="\d{3}.\d{3}.\d{3}-\d{2}" required title="000.000.000-00"  placeholder="01f.ad0.dud-54"><br><br></label>
+            <input type="submit" value="Cadastrar" class="butao">
+        </form>
+    </div>
+</body>
+</html>
